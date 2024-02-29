@@ -3,6 +3,13 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# SQL Server data directory
+/var/opt/mssql/data/
+
+# Docker-related files
+Dockerfile
+docker-compose.yml
+
 # User-specific files
 *.rsuser
 *.suo
