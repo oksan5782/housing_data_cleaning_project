@@ -1,0 +1,5 @@
+SELECT DB_NAME();
+
+SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE='BASE TABLE';
+
+SELECT TOP 10 * FROM housing_data_cleaning.dbo.Nashville_Housing;
